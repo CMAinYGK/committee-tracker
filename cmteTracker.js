@@ -17,17 +17,11 @@ function olaTracker() {
 	}
 };
 
-function cmteTracker() {
-	window.open('http://www.ourcommons.ca/Committees/en/Participate#participate', '_blank');
-};
-
-function senTracker() {
-	window.open('https://sencanada.ca/en/committees/studiesandbills/?pagesize=25', '_blank');
-	window.open('https://www.parl.ca/LegisInfo/BillsBeforeCommittee.aspx?Language=E', '_blank');
+function fedCmteTracker() {
+	window.open('http://www.parl.ca/LegisInfo/BillsBeforeCommittee.aspx?Language=E', '_blank');
 };
 
 function trackAll() {
 	olaTracker();
-	cmteTracker();
-	senTracker();
+	fedCmteTracker();
 };
